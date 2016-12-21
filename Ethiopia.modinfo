@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="jhjJF8A4-d714-1h7F-37D4-05299G15j05G" version="3.2">
+	<Properties>
+		<Name>LOC_ETHIOPIA_TITLE</Name>
+		<Teaser>LOC_ETHIOPIA_TEASER</Teaser>
+		<Description>LOC_ETHIOPIA_DESC</Description>
+		<Authors>LOC_ETHIOPIA_AUTHOR</Authors>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="ETHIOPIA_COMPONENT">
+			<Items>
+				<File>Ethiopia_Buildings.xml</File>
+				<File>Ethiopia_Civilizations.xml</File>
+				<File>Ethiopia_Colours.xml</File>
+				<File>Ethiopia_Gossip.xml</File>
+				<File>Ethiopia_Leaders.xml</File>
+				<File>Ethiopia_PlayerColours.xml</File>
+				<File>Ethiopia_Units.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="ETHIOPIA_TEXT">
+			<Items>
+				<File>Ethiopia_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<Settings>
+		<Custom id="ETHIOPIA_SETTING">
+			<Items>
+				<File>Ethiopia_Config.xml</File>
+			</Items>
+		</Custom>
+		<LocalizedText id="ETHIOPIA_SETTING_TEXT">
+			<Items>
+				<File>Ethiopia_Config_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+	<LocalizedText>
+		<Text id="LOC_ETHIOPIA_TITLE">
+			<en_US>Ethiopia</en_US>
+		</Text>
+		<Text id="LOC_ETHIOPIA_TEASER">
+			<en_US>Don't lose to Italy!</en_US>
+		</Text>
+		<Text id="LOC_ETHIOPIA_DESC">
+			<en_US>A mod that adds the civilization of Ethiopia led by Haile Selassie</en_US>
+		</Text>
+		<Text id="LOC_ETHIOPIA_AUTHOR">
+			<en_US>NerdByFate</en_US>
+		</Text>
+	</LocalizedText>
+	<Files>
+		<File>Ethiopia_Buildings.xml</File>
+		<File>Ethiopia_Config.xml</File>
+		<File>Ethiopia_Config_Text.xml</File>
+		<File>Ethiopia_Civilizations.xml</File>
+		<File>Ethiopia_Colours.xml</File>
+		<File>Ethiopia_Gossip.xml</File>
+		<File>Ethiopia_Leaders.xml</File>
+		<File>Ethiopia_PlayerColours.xml</File>
+		<File>Ethiopia_Text.xml</File>
+		<File>Ethiopia_Units.xml</File>
+	</Files>
+</Mod>
