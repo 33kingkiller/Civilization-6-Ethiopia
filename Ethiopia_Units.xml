@@ -2,7 +2,6 @@
 <GameInfo>
   <Types>
     <Row Type="UNIT_MEHAL_SEFARI" Kind="KIND_UNIT"/>
-	<Row Type="ABILITY_MEHAL_SEFARI" Kind="KIND_ABILITY"/>
   </Types>
   <UnitAiInfos>
     <Row UnitType="UNIT_MEHAL_SEFARI" AiType="UNITAI_COMBAT"/>
@@ -13,39 +12,16 @@
     <Row CivUniqueUnitType="UNIT_MEHAL_SEFARI" ReplacesUnitType="UNIT_INFANTRY"/>
   </UnitReplaces>
   <Units>
-    <Row UnitType="UNIT_MEHAL_SEFARI" BaseMoves="2" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" Name="LOC_UNIT_MEHAL_SEFARI_NAME" Description="LOC_UNIT_MEHAL_SEFARI_DESCRIPTION" PrereqTech="TECH_REPLACEABLE_PARTS" PurchaseYield="YIELD_GOLD" Maintenance="5" Combat="70"/>
+    <Row UnitType="UNIT_MEHAL_SEFARI" BaseMoves="2" Cost="360" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" Name="LOC_UNIT_MEHAL_SEFARI_NAME" Description="LOC_UNIT_MEHAL_SEFARI_DESCRIPTION" PrereqTech="TECH_REPLACEABLE_PARTS" PurchaseYield="YIELD_GOLD" Maintenance="5" Combat="80" TraitType="TRAIT_CIVILIZATION_UNIT_MEHAL_SEFARI"/>
   </Units>
+  <Types>
+	<Row Type="ABILITY_MEHAL_SEFARI" Kind="KIND_ABILITY"/>
+  </Types>
   <Tags>
 	<Row Tag="CLASS_MEHAL_SEFARI" Vocabulary="ABILITY_CLASS"/>
   </Tags>
   <TypeTags>
 	<Row Type="UNIT_MEHAL_SEFARI" Tag="CLASS_MELEE"/>
 	<Row Type="UNIT_MEHAL_SEFARI" Tag="CLASS_MEHAL_SEFARI"/>
-	<Row Type="ABILITY_MEHAL_SEFARI" Tag="CLASS_MEHAL_SEFARI"/>
   </TypeTags>
-  <UnitAbilities>
-	<Row UnitAbilityType="ABILITY_MEHAL_SEFARI" Name="LOC_ABILITY_MEHAL_SEFARI_NAME" Description="LOC_ABILITY_MEHAL_SEFARI_DESCRIPTION"/>
-  </UnitAbilities>
-  <UnitAbilityModifiers>
-	<Row>
-		<UnitAbilityType>ABILITY_MEHAL_SEFARI</UnitAbilityType>
-		<ModifierId>SEFARI_FRIENDLY_TERRITORY_COMBAT</ModifierId>
-	</Row>
-  </UnitAbilityModifiers>
-  <Modifiers>
-	<Row>
-		<ModifierId>SEFARI_FRIENDLY_TERRITORY_COMBAT</ModifierId>
-		<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FRIENDLY_TERRITORY_COMBAT</ModifierType>
-	</Row>
-  </Modifiers>
-  <ModifierArguments>
-	<Row>
-		<ModifierId>SEFARI_FRIENDLY_TERRITORY_COMBAT</ModifierId>
-		<Name>Amount</Name>
-		<Value>15</Value>
-	</Row>
-  </ModifierArguments>
-  <ModifierStrings>
-	<Row ModifierId="SEFARI_FRIENDLY_TERRITORY_COMBAT" Context="Preview" Text="LOC_ABILITY_SEFARI_FRIENDLY_TERRITORY_COMBAT_MODIFIER_DESCRIPTION"/>
-  </ModifierStrings>
 </GameInfo>

@@ -18,7 +18,7 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MEHAL_SEFARI" Name="LOC_UNIT_MEHAL_SEFARI_NAME" Description="LOC_UNIT_MEHAL_SEFARI_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_CIVILIZATION_SPIRIT_OF_ADWA" ModifierId="TRAIT_FRIENDLY_COMBAT_BONUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SPIRIT_OF_ADWA" ModifierId="TRAIT_ADWA_FRIENDLY_COMBAT_BONUS"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ETHIOPIA" TraitType="TRAIT_CIVILIZATION_SPIRIT_OF_ADWA"/>
@@ -27,33 +27,33 @@
 	</CivilizationTraits>
 	<Modifiers>
 		<Row>
-			<ModifierId>TRAIT_FRIENDLY_COMBAT_BONUS</ModifierId>
+			<ModifierId>TRAIT_ADWA_FRIENDLY_COMBAT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>COMBAT_FRIENDLY_BONUS_MODIFIER</ModifierId>
+			<ModifierId>COMBAT_ADWA_FRIENDLY_BONUS_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FRIENDLY_TERRITORY_COMBAT</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>COMBAT_FRIENDLY_BONUS_MODIFIER</ModifierId>
+			<ModifierId>COMBAT_ADWA_FRIENDLY_BONUS_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>6</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FRIENDLY_COMBAT_BONUS</ModifierId>
+			<ModifierId>TRAIT_ADWA_FRIENDLY_COMBAT_BONUS</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>COMBAT_FRIENDLY_BONUS_MODIFIER</Value>
+			<Value>COMBAT_ADWA_FRIENDLY_BONUS_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FRIENDLY_COMBAT_BONUS</ModifierId>
+			<ModifierId>TRAIT_ADWA_FRIENDLY_COMBAT_BONUS</ModifierId>
 			<Name>Description</Name>
 			<Value>+6 combat strength when fighting in Ethiopian territory.</Value>
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
-		<Row ModifierId="COMBAT_FRIENDLY_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_FRIENDLY_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="COMBAT_ADWA_FRIENDLY_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_ADWA_FRIENDLY_COMBAT_DESCRIPTION"/>
 	</ModifierStrings>
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_ETHIOPIA" CityName="Addis Ababa"/>

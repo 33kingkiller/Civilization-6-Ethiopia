@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="jhjJF8A4-d714-1h7F-37D4-05299G15j05G" version="3.2">
+<Mod id="JA31389d-h82C-Ec57-8879-DdaEIf6Cd1HG" version="1">
 	<Properties>
 		<Name>LOC_ETHIOPIA_TITLE</Name>
 		<Teaser>LOC_ETHIOPIA_TEASER</Teaser>
@@ -44,7 +44,7 @@
 			<en_US>Don't lose to Italy!</en_US>
 		</Text>
 		<Text id="LOC_ETHIOPIA_DESC">
-			<en_US>A mod that adds the civilization of Ethiopia led by Haile Selassie</en_US>
+			<en_US>A mod that adds the civilization of Ethiopia led by Haile Selassie.</en_US>
 		</Text>
 		<Text id="LOC_ETHIOPIA_AUTHOR">
 			<en_US>NerdByFate</en_US>

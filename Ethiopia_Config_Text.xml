@@ -23,7 +23,7 @@
 	  <Text>Mehal Sefari</Text>
     </Row>
     <Row Tag="LOC_UNIT_MEHAL_SEFARI_DESCRIPTION" Language="en_US">
-	  <Text>An Ethiopian unique unit that replaces the infantry. Receives +15 [ICON_Strength] when fighting in friendly territory, and is also cheaper to produce and maintain.</Text>
+	  <Text>An Ethiopian unique unit that replaces the infantry. Has +10 [ICON_Strength] compared to standard infantry, and is also cheaper to produce and maintain.</Text>
     </Row>
 	<Row Tag="LOC_BUILDING_STELE_NAME" Language="en_US">
 	  <Text>Stele</Text>
