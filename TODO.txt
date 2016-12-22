@@ -1,4 +1,4 @@
-1. Replace Datlof with Ethiopia
+1. Replace Datlof with Ethiopia DONE
 2. Add textures
 3. Add icons
 4. Add Music:
