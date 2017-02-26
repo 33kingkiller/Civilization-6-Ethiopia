@@ -1,65 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Mod id="JA31389d-h82C-Ec57-8879-DdaEIf6Cd1HG" version="1">
-	<Properties>
-		<Name>LOC_ETHIOPIA_TITLE</Name>
-		<Teaser>LOC_ETHIOPIA_TEASER</Teaser>
-		<Description>LOC_ETHIOPIA_DESC</Description>
-		<Authors>LOC_ETHIOPIA_AUTHOR</Authors>
-	</Properties>
-	<Components>
-		<UpdateDatabase id="ETHIOPIA_COMPONENT">
-			<Items>
-				<File>Ethiopia_Buildings.xml</File>
-				<File>Ethiopia_Civilizations.xml</File>
-				<File>Ethiopia_Colours.xml</File>
-				<File>Ethiopia_Gossip.xml</File>
-				<File>Ethiopia_Leaders.xml</File>
-				<File>Ethiopia_PlayerColours.xml</File>
-				<File>Ethiopia_Units.xml</File>
-			</Items>
-		</UpdateDatabase>
-		<LocalizedText id="ETHIOPIA_TEXT">
-			<Items>
-				<File>Ethiopia_Text.xml</File>
-			</Items>
-		</LocalizedText>
-	</Components>
-	<Settings>
-		<Custom id="ETHIOPIA_SETTING">
-			<Items>
-				<File>Ethiopia_Config.xml</File>
-			</Items>
-		</Custom>
-		<LocalizedText id="ETHIOPIA_SETTING_TEXT">
-			<Items>
-				<File>Ethiopia_Config_Text.xml</File>
-			</Items>
-		</LocalizedText>
-	</Settings>
-	<LocalizedText>
-		<Text id="LOC_ETHIOPIA_TITLE">
-			<en_US>Ethiopia</en_US>
-		</Text>
-		<Text id="LOC_ETHIOPIA_TEASER">
-			<en_US>Don't lose to Italy!</en_US>
-		</Text>
-		<Text id="LOC_ETHIOPIA_DESC">
-			<en_US>A mod that adds the civilization of Ethiopia led by Haile Selassie.</en_US>
-		</Text>
-		<Text id="LOC_ETHIOPIA_AUTHOR">
-			<en_US>NerdByFate</en_US>
-		</Text>
-	</LocalizedText>
-	<Files>
-		<File>Ethiopia_Buildings.xml</File>
-		<File>Ethiopia_Config.xml</File>
-		<File>Ethiopia_Config_Text.xml</File>
-		<File>Ethiopia_Civilizations.xml</File>
-		<File>Ethiopia_Colours.xml</File>
-		<File>Ethiopia_Gossip.xml</File>
-		<File>Ethiopia_Leaders.xml</File>
-		<File>Ethiopia_PlayerColours.xml</File>
-		<File>Ethiopia_Text.xml</File>
-		<File>Ethiopia_Units.xml</File>
-	</Files>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="64c4f848-1114-4d07-ab53-35bd67b9b8bf" version="1">
+  <Properties>
+    <Name>Civilization 6: Ethiopia</Name>
+    <Description>A mod that adds the civilization of Ethiopia led by Haile Selassie.</Description>
+    <CustomProperties></CustomProperties>
+    <Teaser>Don't lose to Italy!</Teaser>
+    <Authors>NerdByFate</Authors>
+    <Homepage>https://forums.civfanatics.com/threads/civilization-6-ethiopia.607716/</Homepage>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="EthiopiaCriteria" />
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Data/Ethiopia_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Data/Ethiopia_Config_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Data/Ethiopia_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Ethiopia.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>EthiopiaCriteria</Criteria>
+      <File>Data/Ethiopia_Buildings.xml</File>
+      <File>Data/Ethiopia_Civilizations.xml</File>
+      <File>Data/Ethiopia_Leaders.xml</File>
+      <File>Data/Ethiopia_Units.xml</File>
+      <File>Data/Ethiopia_Colours.xml</File>
+      <File>Data/Ethiopia_Gossip.xml</File>
+      <File>Data/Ethiopia_PlayerColours.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>EthiopiaCriteria</Criteria>
+      <File>Data/Ethiopia_Config_Text.xml</File>
+      <File>Data/Ethiopia_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>EthiopiaCriteria</Criteria>
+      <File>Data/Ethiopia_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>EthiopiaCriteria</Criteria>
+      <File>Ethiopia.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Data/Ethiopia_Buildings.xml</File>
+    <File>Data/Ethiopia_Civilizations.xml</File>
+    <File>Data/Ethiopia_Colours.xml</File>
+    <File>Data/Ethiopia_Config.xml</File>
+    <File>Data/Ethiopia_Config_Text.xml</File>
+    <File>Data/Ethiopia_Gossip.xml</File>
+    <File>Data/Ethiopia_Icons.xml</File>
+    <File>Data/Ethiopia_Leaders.xml</File>
+    <File>Data/Ethiopia_PlayerColours.xml</File>
+    <File>Data/Ethiopia_Text.xml</File>
+    <File>Data/Ethiopia_Units.xml</File>
+    <File>TODO.txt</File>
+  </Files>
 </Mod>
