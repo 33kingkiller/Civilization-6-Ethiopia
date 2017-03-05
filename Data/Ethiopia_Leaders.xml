@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_HAILE_SELASSIE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_PAN_AFRICANISM" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_HAILE_SELASSIE" Name="LOC_LEADER_HAILE_SELASSIE_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_HAILE_SELASSIE" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+	</HistoricalAgendas>
+	<AiListTypes>
+		<Row ListType="HaileCivics"/>
+		<Row ListType="HaileTechs"/>
+		<Row ListType="HaileWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="HaileWonders" LeaderType="TRAIT_LEADER_PAN_AFRICANISM" System="Buildings"/>
+		<Row ListType="HaileCivics" LeaderType="TRAIT_LEADER_PAN_AFRICANISM" System="Civics"/>
+		<Row ListType="HaileTechs" LeaderType="TRAIT_LEADER_PAN_AFRICANISM" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="HaileWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
+		<Row ListType="HaileCivics" Item="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row ListType="HaileCivics" Item="CIVIC_EARLY_EMPIRE"/>
+		<Row ListType="HaileCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="HaileCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row ListType="HaileCivics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="HaileCivics" Item="CIVIC_CLASS_STRUGGLE"/>
+		<Row ListType="HaileTechs" Item="TECH_NUCLEAR_FUSION"/>
+		<Row ListType="HaileTechs" Item="TECH_NUCLEAR_FISSION"/>
+	</AiFavoredItems>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_HAILE_SELASSIE" TraitType="TRAIT_LEADER_PAN_AFRICANISM"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_PAN_AFRICANISM" Name="LOC_TRAIT_LEADER_PAN_AFRICANISM_NAME" Description="LOC_TRAIT_LEADER_PAN_AFRICANISM_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_PAN_AFRICANISM" ModifierId="TRAIT_BORDER_GROWTH_ADJUST"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_BORDER_GROWTH_ADJUST</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_CULTURE_BORDER_EXPANSION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_BORDER_GROWTH_ADJUST</ModifierId>
+			<Name>Percent</Name>
+			<Value>30</Value>
+		</Row>
+	</ModifierArguments>
+	<DiplomacyInfo>
+		<Row Type="LEADER_HAILE_SELASSIE" BackgroundImage="ART_LEADER_HAIL.dds"/>
+	</DiplomacyInfo>
+</GameInfo>

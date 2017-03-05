@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+		<Row Name="ICON_ATLAS_SELASSIE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Selassie32.dds"/>
+		<Row Name="ICON_ATLAS_SELASSIE" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Selassie45.dds"/>
+		<Row Name="ICON_ATLAS_SELASSIE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Selassie50.dds"/>
+		<Row Name="ICON_ATLAS_SELASSIE" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Selassie55.dds"/>
+		<Row Name="ICON_ATLAS_SELASSIE" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Selassie64.dds"/>
+		<Row Name="ICON_ATLAS_SELASSIE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Selassie80.dds"/>
+		<Row Name="ICON_ATLAS_SELASSIE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Selassie256.dds"/>
+		
+		<!--Civilization Icons-->
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas22.dds"/>
+	    <Row Name="ICON_ATLAS_ETHIOPIA" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas30.dds"/>
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas36.dds"/>
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas44.dds"/>
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas45.dds"/>
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas48.dds"/>
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas50.dds"/>
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas64.dds"/>
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas80.dds"/>
+		<Row Name="ICON_ATLAS_ETHIOPIA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Ethiopia_Atlas256.dds"/>
+		
+		<!--Building Icons-->
+		<Row Name="ICON_ATLAS_STELE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Stele32.dds"/>
+		<Row Name="ICON_ATLAS_STELE_FOW" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Stele32.dds"/>
+		<Row Name="ICON_ATLAS_STELE" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Stele38.dds"/>
+		<Row Name="ICON_ATLAS_STELE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Stele50.dds"/>
+		<Row Name="ICON_ATLAS_STELE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Stele80.dds"/>
+		<Row Name="ICON_ATLAS_STELE" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Stele128.dds"/>
+		<Row Name="ICON_ATLAS_STELE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Stele256.dds"/>
+
+		<!--Unit Icons-->
+		<Row Name="ICON_ATLAS_MEHAL_SEFARI_SYMBOL_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Sefari22.dds"/>
+		<Row Name="ICON_ATLAS_MEHAL_SEFARI_SYMBOL_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Sefari32.dds"/>
+		<Row Name="ICON_ATLAS_MEHAL_SEFARI_SYMBOL_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Sefari32.dds"/>
+		<Row Name="ICON_ATLAS_MEHAL_SEFARI_SYMBOL_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Sefari50.dds"/>
+		<Row Name="ICON_ATLAS_MEHAL_SEFARI_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Sefari80.dds"/>
+		<Row Name="ICON_ATLAS_MEHAL_SEFARI_SYMBOL_WHITE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Mehal256.dds"/>
+	</IconTextureAtlases>
+	
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_STELE_FOW" Atlas="ICON_ATLAS_STELE_FOW" Index="0"/>
+		<Row Name="ICON_BUILDING_STELE" Atlas="ICON_ATLAS_STELE" Index="0"/>
+		
+		<Row Name="ICON_CIVILIZATION_ETHIOPIA" Atlas="ICON_ATLAS_ETHIOPIA" Index="0"/>
+		
+		<Row Name="ICON_LEADER_HAILE_SELASSIE" Atlas="ICON_ATLAS_SELASSIE" Index="0"/>
+		
+		<Row Name="ICON_UNIT_MEHAL_SEFARI" Atlas="ICON_ATLAS_MEHAL_SEFARI_SYMBOL_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_MEHAL_SEFARI" Atlas="ICON_ATLAS_MEHAL_SEFARI_SYMBOL_BLACK" Index="0"/>
+	</IconDefinitions>
+</GameData>

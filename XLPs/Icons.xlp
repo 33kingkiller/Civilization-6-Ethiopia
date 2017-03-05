@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>293</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Selassie256"/>
+			<m_ObjectName text="Selassie256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Selassie80"/>
+			<m_ObjectName text="Selassie80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Selassie64"/>
+			<m_ObjectName text="Selassie64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Selassie55"/>
+			<m_ObjectName text="Selassie55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Selassie50"/>
+			<m_ObjectName text="Selassie50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Selassie45"/>
+			<m_ObjectName text="Selassie45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Selassie32"/>
+			<m_ObjectName text="Selassie32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas256"/>
+			<m_ObjectName text="Ethiopia_Atlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas80"/>
+			<m_ObjectName text="Ethiopia_Atlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas64"/>
+			<m_ObjectName text="Ethiopia_Atlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas50"/>
+			<m_ObjectName text="Ethiopia_Atlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas48"/>
+			<m_ObjectName text="Ethiopia_Atlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas45"/>
+			<m_ObjectName text="Ethiopia_Atlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas44"/>
+			<m_ObjectName text="Ethiopia_Atlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas36"/>
+			<m_ObjectName text="Ethiopia_Atlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas30"/>
+			<m_ObjectName text="Ethiopia_Atlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopia_Atlas22"/>
+			<m_ObjectName text="Ethiopia_Atlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stele256"/>
+			<m_ObjectName text="Stele256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stele128"/>
+			<m_ObjectName text="Stele128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stele80"/>
+			<m_ObjectName text="Stele80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stele50"/>
+			<m_ObjectName text="Stele50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stele38"/>
+			<m_ObjectName text="Stele38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stele32"/>
+			<m_ObjectName text="Stele32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mehal256"/>
+			<m_ObjectName text="Mehal256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sefari80"/>
+			<m_ObjectName text="Sefari80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sefari50"/>
+			<m_ObjectName text="Sefari50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sefari32"/>
+			<m_ObjectName text="Sefari32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sefari22"/>
+			<m_ObjectName text="Sefari22"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

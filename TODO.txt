@@ -1,8 +1,8 @@
 1. Replace Datlof with Ethiopia DONE
 2. Fix Bug #1 DONE
-3. Test/Adjust "Pan Africanism"
-4. Add textures
-5. Add icons
+3. Test/Adjust "Pan Africanism" DONE
+4. Add textures DONE
+5. Add icons DONE
 6. Add Music:
 	National Anthem 1930-1975
 	National Anthem 1975-1992
