@@ -93,4 +93,9 @@
 	<StartBiasRivers>
 		<Row CivilizationType="CIVILIZATION_ETHIOPIA" Tier="4"/>
 	</StartBiasRivers>
+	<StartPosition>
+		<Replace MapName="GiantEarth" Civilization="CIVILIZATION_ETHIOPIA"    X="35" Y="34" />
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_ETHIOPIA"    X="62" Y="25" />
+		<Replace MapName="LargestEarth" Civilization="CIVILIZATION_ETHIOPIA"    X="47" Y="33" />
+	</StartPosition>
 </GameInfo>
